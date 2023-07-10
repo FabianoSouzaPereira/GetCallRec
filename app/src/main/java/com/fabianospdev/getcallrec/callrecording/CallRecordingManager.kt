@@ -3,12 +3,11 @@ package com.fabianospdev.getcallrec.callrecording
 import android.content.Context
 import android.media.MediaRecorder
 import android.util.Log
-import dagger.hilt.android.AndroidEntryPoint
 import java.io.File
 import java.io.IOException
 import javax.inject.Inject
 
-@AndroidEntryPoint
+
 class CallRecordingManager @Inject constructor(private val context: Context) {
     private var mediaRecorder: MediaRecorder? = null
     private var isRecording = false
