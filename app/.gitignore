@@ -1,1 +1,6 @@
 /build
+.idea/*
+!.idea/codeStyles
+!.idea/codeTemplates
+!.idea/workspace.xml
+!.idea/gradle.xml
