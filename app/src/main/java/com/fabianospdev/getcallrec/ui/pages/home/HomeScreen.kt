@@ -11,7 +11,7 @@ import androidx.navigation.compose.rememberNavController
 
 @Preview
 @Composable
-fun ChurchsScreenPreview() {
+fun HomeScreenPreview() {
     val navController = rememberNavController()
     CompositionLocalProvider(LocalNavHostController provides navController) {
         HomeScreen(navController =  navController)

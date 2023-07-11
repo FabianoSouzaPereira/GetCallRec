@@ -11,7 +11,7 @@ import com.fabianospdev.getcallrec.ui.pages.home.HomeScreen
 
 @Preview
 @Composable
-fun ChurchsScreenPreview() {
+fun SettingsScreenPreview() {
     val navController = rememberNavController()
     CompositionLocalProvider(LocalNavHostController provides navController) {
         SettingsScreen(navController =  navController)
